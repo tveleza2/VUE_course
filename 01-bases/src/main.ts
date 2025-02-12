@@ -1,7 +1,16 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
-import './base/01ConstLet';
+// import './base/01ConstLet';
+// import './base/02Obj'
+// import './base/03Arrays'
+// import './base/04Functions'
+// import './base/05DesestructObj'
+// import './base/06DesestArrays'
+// import './base/07ImpExp'
+// import './base/08Promises'
+import './base/09FetchApi'
+
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
