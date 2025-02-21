@@ -1,11 +1,8 @@
 <template>
     <h1 class="text-3xl font-bold underline">Mi primera app</h1>
     <hr>
-    <MyCounter :value="5"/>
-    <!-- <div class="bg-red-500 p-10 text-white"> -->
-    <!-- Tailwind is working!
-  </div> -->
-    <MyCounterScript :value="7"/>
+    <MyCounter :value="10"/>
+    <MyCounterScript :value="8"/>
     <MyCounterScript2 :value="9"/>
 </template>
 
