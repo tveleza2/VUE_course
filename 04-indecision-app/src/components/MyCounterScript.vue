@@ -13,9 +13,10 @@
 
 
 <script lang="ts">
-    import {defineComponent} from 'vue'
+    import {defineComponent, defineEmits} from 'vue'
     import { useCounter } from '@/composables/useCounter';
     export default defineComponent({
+
         props:{
             value:{type:Number,required:true},
         },
